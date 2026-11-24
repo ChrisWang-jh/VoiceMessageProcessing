@@ -1,0 +1,59 @@
+# 本地环境与缓存
+.venv/
+venv/
+env/
+.cache/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# 模型权重与生成产物
+/models/
+/outputs/
+/checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# 构建与检查产物
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# 日志与临时文件
+/logs/
+/tmp/
+/temp/
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# 本地配置；示例配置可以提交
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
